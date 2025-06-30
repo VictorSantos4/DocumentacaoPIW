@@ -8,14 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #d8d4d4;
     color: #333;
     padding-bottom: 60px;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #3b3142;
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -24,23 +23,34 @@ header {
 
 header h1 {
     font-size: 2.2em;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
 }
 
-/* Navegação */
+#nav2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
 nav {
-    background-color: #2e7d32;
+    background-color: #655172;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav ul li {
     margin: 8px 15px;
+
 }
 
 nav ul li a {
@@ -48,12 +58,13 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
+    
     transition: background 0.3s ease;
     border-radius: 5px;
 }
 
 nav ul li a:hover {
-    background-color: #66bb6a;
+    background-color: #78C2CB;
 }
 
 /* Conteúdo principal */
@@ -63,7 +74,7 @@ main {
     padding: 20px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
 }
 
 /* Seções */
@@ -72,8 +83,8 @@ section {
 }
 
 section h2 {
-    color: #388e3c;
-    border-left: 6px solid #66bb6a;
+    color: #655172;
+    border-left: 6px solid #574663;
     padding-left: 10px;
     margin-bottom: 15px;
     font-size: 1.8em;
@@ -124,3 +135,4 @@ footer h4 {
     font-weight: normal;
     font-size: 1em;
 }
+
