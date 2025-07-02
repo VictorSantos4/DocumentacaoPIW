@@ -111,3 +111,14 @@ li:hover{
     color: #F2F2F2;
     justify-content: center;
 }
+
+@font-face {
+    font-family: Poppins;
+    font-family: Bebas Neue;
+    src: url('Fontes/BebasNeue-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url('Fontes/Poppins-Regular.woff2') format('woff2');
+}
