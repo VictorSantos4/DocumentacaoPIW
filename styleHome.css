@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #071A26;
+}
+
+header{
+    position: fixed;
+    background-color: #071A26;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+main{
+    background-color: #071A26;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #071A26;
+    width: 100%;
+    height: 100px;
+    margin: 0px;    
+    padding: 0px;
+    
+}
+
+ul{
+    font-family: Poppins;   
+    font-size: 1.20em;
+    display: flex;
+    justify-content: right;
+    margin-right: 70px;
+    margin-top: 38px;
+}
+
+#logo-nos{
+    height: 450px;
+    margin-top: 65px;
+}
+
+main h1{
+    font-family: Poppins;
+    font-size: 2.20em;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 385px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    transition: all 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    color: #F2F2F2;
+    font-family: Poppins;
+    letter-spacing: 2px;
+    font-size: 1.30em;
+    transition: all 0.3s ease;
+    border: none;
+    border-bottom: 2px solid #94F2F2;
+}
+
+li:hover{
+    transform: scale(1.1);
+    border-bottom: 3px solid #94F2F2;
+
+}
+
+#ftr1{
+    font-family: Bebas Neue;
+    font-size: 1.10em;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #F2F2F2;
+}
+
+#ftr2{
+    font-family: Bebas Neue;
+    font-size: 1.m;
+    letter-spacing: 1px ;
+    display: flex;
+    color: #F2F2F2;
+    justify-content: center;
+}
