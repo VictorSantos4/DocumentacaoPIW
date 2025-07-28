@@ -297,6 +297,10 @@ h1 {
   color: #ffffff;
 }
 
+a{
+  color: white;
+}
+
 .linha-do-tempo {
   display: flex;
   justify-content: space-between;
